@@ -1,0 +1,42 @@
+Title: s21_3D_Viewer_v1
+Date: 10/05/2023
+
+About:
+The s21_3D_Viewer_v1 is equipped with a graphical interface developed using Qt5. The software was created on Ubuntu 22.04.
+
+The s21_3D_Viewer_v1 is designed as a program for viewing 3D wireframe models (3D Viewer) implemented in the C programming language. The models themselves are loaded from .obj files and can be displayed on the screen with the ability to rotate, scale, and translate.
+
+Make targets:
+- build - compiles an executable from source files
+- install - installs the program in accordance with Linux environment conventions for the current user (adding an icon to the application menu)
+- uninstall - removes the program following typical Linux user environment procedures
+- clean - delete all work files
+- test - runs unit tests for modules related to expression evaluation using the Check library
+- gcov_report - provides information about code coverage by tests
+- dist - creates an archive containing the program distribution for delivery
+- style - check for the google-style
+- format - edit to the google-style
+
+Program features:
+- Move the model along the x, y, and z axes
+- Rotate the model along its axes
+- Rescale the model
+- Define color and line style for edges
+- Customize vertex color and shape
+- Set background color
+- Choose perspective type (central and parallel)
+- Adjust the distance from the camera to the plane for central projection
+- Save settings between program restarts
+- Capture screenshots of the model projection
+
+Use case:
+- Launch the program
+- Click the "Load Model" button
+- Explore the model
+- Capture a snapshot by pressing the "Snapshot" button
+- Create a GIF by pressing the "Make GIF" button and changing the model
+- View saved screenshots and GIFs
+- Download a new model
+- Adjust display options
+- Enjoy the experience
+- Close the program
